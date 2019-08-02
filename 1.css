@@ -1,0 +1,101 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.body {
+	position: relative;
+}
+
+#menu {
+	padding-right: 100px;
+	height: 80px;
+	padding-top: 20px;
+	font-size: 20px;
+	width: 100%;
+	position: fixed;
+	z-index: 9999;
+}
+#menu a {
+	color: chocolate;
+	font-family: arial;
+}
+
+.bachkhoa {
+	background-image: url("./images/bachkhoa.jpg");
+	background-repeat: no-repeat;
+	height: 900px;
+	background-size: cover;
+}
+
+#anh img {
+    border-radius: 60%;
+}
+
+.col-sm-6.honor td {
+    padding-left: 12px;
+}
+
+.col-sm-8.skill td {
+    padding-left: 10px;
+}
+.col-sm-6.activity td {
+    padding-left: 10px;
+}
+.row.interest {
+    height: 250px;
+}
+
+.ngoisao {
+	position: absolute;
+	bottom: 5px
+}
+
+.interest img {
+	height: 180px;
+}
+
+.interest {
+	text-align: center;
+}
+
+#instagram {
+	color: red;
+}
+
+.quote{
+	padding: 50px 0px;
+	font-size: 25px;
+	color: #648db9;
+	background-color: #e1e4e8;
+	font-family:serif;
+}
+
+#thong-tin-ca-nhan h2 {
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+#thong-tin-ca-nhan {
+    padding-bottom: 45px;
+}
+footer {
+    background-color: #2d2d2d;
+    margin-top: 24px;
+    padding-top: 15px;
+    color: #cccccc;
+    font-size: 14px;
+}
+.experience h1, .activity h1, .skill-and-interest h1, #thong-tin-ca-nhan h2{
+    color: #6c757d;
+}
+.container.activity {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+#menu {
+	background-color: #afcbea;
+}
+#copyright {
+	padding-bottom: 5px;
+	border-bottom: solid 1px #cccccc;
+}
